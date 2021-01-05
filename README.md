@@ -1,1 +1,1 @@
-De temperatuur en de vochtheid van een huis monitoren via NodemCu
+De temperatuur en de vochtigheid van een huis monitoren via NodemCu
