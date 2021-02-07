@@ -8,4 +8,4 @@ In mijn huis zijn er een woonkamer en drie slaapkamers. Ik ga de gedurende 24 uu
 
 Platform
 
-Hier heb ik Thinspeak website en app gebruikt om waardes te monitoren en op te slaan.
+Hier heb ik Thingspeak website en app gebruikt om waardes te monitoren en op te slaan.
