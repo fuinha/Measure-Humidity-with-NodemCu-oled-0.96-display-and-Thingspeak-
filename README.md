@@ -9,6 +9,7 @@ Aanpak
 Ik ga de vochtigheid van mijn woonkamer meten en kijken of de waardes binnen de normale limieten (40-60 %) vallen. Als de warden buiten de normale limitien vallen, ga ik de nodige maatregelen nemen om vocht te verminderen.
 
 Componenten
+
  	ESP8226 WIFI module (NodemCu)
  	DHT11 sensor
  	Breadboard
@@ -17,9 +18,11 @@ Componenten
  	Power bank
 
 IOT Cloudservice
+
 Hierbij heb ik ThingSpeak  gebruikt om de waardes te monitoren en op te slaan. Om waardes te monitoren gebruik ik ThingSpeak Android app (widget).
 
 Conclusie
+
 Ik heb de luchtvochtigheid van mijn woonkamer gedurende 24 uur gemeten met tussenpozen van een half uur. Daardoor zag ik dat de luchtvochtigheid in de woonkamer binnen de ideale grenzen (tussen 40-60 %) lag. De gemiddelde waarde was 53.9 %.
 
 
