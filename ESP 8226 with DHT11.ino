@@ -91,6 +91,6 @@ void loop()
  
 
   
-  // elke 10 minuten wordt de data geüpdatet
-  delay(600000);
+  // elke 30 minuten wordt de data geüpdatet
+  delay(1800000);
 }
