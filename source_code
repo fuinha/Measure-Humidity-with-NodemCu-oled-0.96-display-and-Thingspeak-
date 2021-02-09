@@ -3,18 +3,18 @@
 #include <Wire.h> //librarry for lcd dosplay 
 #include <Adafruit_GFX.h> //oled 0.96 library
 #include <Adafruit_SSD1306.h>// oled 0.96 library
-#define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
+#define SCREEN_WIDTH 128 //defination screen-width oled display
+#define SCREEN_HEIGHT 64 // defination screen-height oled display
 #define OLED_RESET  -1    // RESET PIN
 Adafruit_SSD1306 display(SCREEN_WIDTH,SCREEN_HEIGHT, &Wire, OLED_RESET);
 DHTesp dht;
 String apiKey = "XXXXXXXXXXX";     //   API key from ThingSpeak
  
-const char *ssid =  "XXXXXXXX";     // ssid naam
-const char *pass =  "XXXXXXXXXXXXX"; //ssid wachtwoord
+const char *ssid =  "XXXXXXXX";     // ssid name
+const char *pass =  "XXXXXXXXXXXXX"; //ssid passwoord
 const char* server = "api.thingspeak.com";
  
-#define DHTPIN 0         //DHT11 sensor pin
+#define DHTPIN 0         // DHT11 sensor pin
  
 
  
@@ -22,8 +22,8 @@ WiFiClient client;
  
 void setup() 
 {
-       Serial.begin(9600);
-        display.begin(SSD1306_SWITCHCAPVCC, 0x3C); 
+       Serial.begin(9600); // serial monitor for debugging
+        display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // oled display begin
         display.clearDisplay();
        delay(10);
 dht.setup(D0, DHTesp::DHT11);
@@ -34,6 +34,8 @@ dht.setup(D0, DHTesp::DHT11);
  
  
        WiFi.begin(ssid, pass);
+ 
+ // checking whether the Wifi is connected
  
       while (WiFi.status() != WL_CONNECTED) 
      {
@@ -49,7 +51,7 @@ void loop()
 
 {    display.clearDisplay();
   
-      float humidity = dht.getHumidity(); //variable voor humidity
+      float humidity = dht.getHumidity(); //variable for  humidity
       
              
  
@@ -71,7 +73,7 @@ void loop()
                              client.print("\n\n");
                              client.print(postStr);
 
-                             // Serialprint
+                             // Serialprint for debugging
                              Serial.print(" degrees Celcius, Humidity: ");
                              Serial.print(humidity);
                              Serial.println("%. Send to Thingspeak.");
@@ -91,6 +93,6 @@ void loop()
  
 
   
-  // elke 30 minuten wordt de data geüpdatet
+  // the data is updated every 30 minutes
   delay(1800000);
 }
