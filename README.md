@@ -5,7 +5,9 @@ Probleem
 
 De luchtvochtigheid in huis is belangrijk voor onze gezondheid. Omdat zowel hoge als lage luchtvochtigheid een aantal gezondheidsproblemen veroorzaken, waaronder long-, huid- en oogproblemen. De ideale luchtvochtigheid ligt tussen de 40-60 procent. (https://www.essent.nl/kennisbank/ventilatie/hoe-werkt-ventilatie/luchtkwaliteit-de-ideale-luchtvochtigheid-in-huis, n.d.)
 Daarom moeten we regelmatig de luchtvochtigheid in ons huis meten en controleren of de luchtvochtigheid binnen deze waarden vallen.
+
 Aanpak
+
 Ik ga de vochtigheid van mijn woonkamer meten en kijken of de waardes binnen de normale limieten (40-60 %) vallen. Als de warden buiten de normale limitien vallen, ga ik de nodige maatregelen nemen om vocht te verminderen.
 
 Componenten
